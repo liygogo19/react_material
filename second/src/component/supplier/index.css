@@ -1,0 +1,12 @@
+.supplier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .supplier__action {
+    width: 40%;
+    display: flex;
+    justify-content: center; }
+  .supplier .zent-table-container {
+    width: 60%; }
+  .supplier .zent-input {
+    width: 40px; }

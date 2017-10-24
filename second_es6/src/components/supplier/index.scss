@@ -1,0 +1,20 @@
+.supplier{
+  &_panel{
+    display: flex;
+  }
+
+  &_btn{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &_table{
+    flex: 3;
+
+    &>.zent-table-container{
+      margin-bottom: 0;
+    }
+  }
+}

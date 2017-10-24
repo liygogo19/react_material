@@ -1,0 +1,7 @@
+.filter {
+  padding: 20px 15px;
+  background: #f8f8f8;
+  margin-bottom: 20px; }
+  .filter .zent-input,
+  .filter .zent-select {
+    width: 160px; }

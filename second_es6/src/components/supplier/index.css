@@ -1,0 +1,13 @@
+.supplier_panel {
+  display: flex; }
+
+.supplier_btn {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.supplier_table {
+  flex: 3; }
+  .supplier_table > .zent-table-container {
+    margin-bottom: 0; }

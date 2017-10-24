@@ -1,0 +1,23 @@
+.filter-item{
+
+  $length:20px;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  margin-right: $length;
+
+  margin-bottom: $length;
+
+  align-items: center;
+
+  &_label{
+    margin-right: 15px;
+  }
+
+  &_control{
+
+  }
+
+}

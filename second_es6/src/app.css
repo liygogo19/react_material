@@ -1,0 +1,12 @@
+.app {
+  padding: 20px; }
+  .app--title {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px; }
+  .app__actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px; }
+  .app .tr--expanded > div {
+    flex: 1; }

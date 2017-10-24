@@ -1,0 +1,23 @@
+.filter-item {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px; }
+  .filter-item__label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px; }
+    .filter-item__label--required {
+      position: relative; }
+      .filter-item__label--required::before {
+        content: '*';
+        position: relative;
+        left: -5px;
+        top: 2px;
+        color: red; }
+  .filter-item__siblings {
+    padding-left: 20px; }
+  .filter-item--four-word .filter-item__label {
+    width: 60px; }

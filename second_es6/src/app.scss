@@ -1,0 +1,21 @@
+.app{
+  padding: 20px;
+
+  &--title{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+
+  &__actions{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .tr--expanded{
+    &>div{
+      flex: 1;
+    }
+  }
+}
